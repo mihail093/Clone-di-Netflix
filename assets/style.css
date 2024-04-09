@@ -1,0 +1,131 @@
+body{
+    width: 100vw;
+    color: #fff;
+    background-color: #141414;
+}
+.set-black{
+    color: #fff;
+    background-color: #141414;
+    border: 1px solid #141414;
+}
+.set-black2{
+    color: #fff;
+    background-color: #141414;
+    border: 1px solid #fff;
+}
+.color-white{
+    color: #fff;
+}
+.logo-container{
+    width: 16%;
+}
+.anchor-style{
+    font-size: 14px;
+    opacity: 0.8;
+}
+.anchor-style:hover{
+    opacity: 1;
+}
+.account-img{
+    width: 38%;
+}
+.anchor-style2{
+    font-size: 20px;
+    opacity: 0.5;
+}
+.anchor-style2:hover{
+    opacity: 1;
+}
+.label-style{
+    width: 32px;
+    height: 18px;
+    padding: 12px 0;
+}
+.span-icon{
+    font-size: 10px;
+}
+.poster{
+    transition: 100ms ease-in-out;
+}
+.poster:hover{
+    transform: scale(1.1);
+}
+.button-style{
+    width: 3%;
+}
+.footer-container{
+    margin: 10% 18% 0;
+}
+.footer-text-link{
+    font-size: 12px;
+    opacity: 0.5;
+    text-decoration: none;
+}
+.footer-text-link:hover{
+    opacity: 1;
+}
+.footer-text{
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+/*Media Queries*/
+@media (max-width: 767px) {
+    header *, main *{
+        font-size: 12px;
+    }
+    .footer-container *{
+        font-size: 8px;
+    }
+    .small-screens-mb{
+        margin-bottom: 12px;
+    }
+    .small-screens{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo-container{
+        width: 70%;
+    }
+    .poster{
+        width: 320px;
+        height: 160px;
+        position: relative;
+    }
+    .poster:hover{
+        transform: none;
+    }
+    .button-style{
+        width: 10%;
+        height: 30%;
+        background-color: #E50914;
+        position: absolute;
+        right: 12.5%;
+        top: 36%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .poster{
+        width: 116px;
+        height: 64px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .poster{
+        width: 154px;
+        height: 85px;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .poster{
+        width: 185px;
+        height: 102px;
+    }
+}
+@media (min-width: 1400px) {
+    .poster{
+        width: 240px;
+        height: 131px;
+    }
+}
+
